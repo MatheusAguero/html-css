@@ -1,0 +1,41 @@
+@charset "UTF-8";
+body{
+    margin: 0px;
+}
+header{
+    background-color: black;
+    color: white;
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+}
+header > h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+header > h2{
+    text-align: center;
+    font-weight: normal;
+}
+header > h2 > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 1.6em;
+    font-size: 18px;
+}
+p {
+
+}
+div {
+    margin: 0px;
+    padding: 30px;
+}
+#verso2{
+    background: black url('pacote-d012/imagens/background001.jpg') center / cover no-repeat fixed;
+    color: white;
+    margin: 0px;
+}
