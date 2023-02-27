@@ -1,6 +1,11 @@
 @charset "UTF-8";
 @font-face{
-    src: url(Passion_One/PassionOne-Black.ttf);
+    font-family: 'PassionOne';
+    src: url(Passion_One/PassionOne-Black.ttf) format('truetype');
+}
+@font-face{
+    font-family: 'Sriracha';
+    src: url(Sriracha/OFL.txt);
 }
 body{
     margin: 0px;
@@ -13,7 +18,9 @@ header{
 }
 header > h1{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family:'PassionOne', Arial, Helvetica, sans-serif; 
+    font-weight: lighter;
+    font-size: 78px;
 }
 header > h2{
     text-align: center;
@@ -31,7 +38,9 @@ main{
     font-size: 18px;
 }
 p {
-
+    font-size: 27px;
+    font-family: 'Sriracha', sans-serif;
+    line-height: 2em;
 }
 div {
     margin: 0px;
@@ -41,4 +50,12 @@ div {
     background: black url('pacote-d012/imagens/background001.jpg') center / cover no-repeat fixed;
     color: white;
     margin: 0px;
+}
+#verso4{
+    background: black url('pacote-d012/imagens/background002.jpg') center/ cover no-repeat fixed;
+}
+.paragrafodestaque{
+    background-color: rgba(0, 0, 0, 0.551);
+    color: white;
+    padding: 10px -50px 10px 10px;
 }
