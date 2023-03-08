@@ -1,0 +1,20 @@
+@charset "UTF-8";
+table{
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+th{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+tbody th{
+    vertical-align: top;
+
+}
