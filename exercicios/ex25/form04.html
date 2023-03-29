@@ -14,14 +14,21 @@
 <body>
     <h1>Exemplo de Formulario</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
-        <p>
-            <label for="iemail">E-mail</label>
-            <input type="email" name="email" id="iemail" autocomplete="email" required>
-        </p>
-        <p>
-            <label for="itel">Telephone</label>
-            <input type="tel" name="tel" id="itel" required autocomplete="tel" pattern="[0-9]{4}-[0-9]{4}" placeholder="Ex: (00)12345-6789">
-        </p>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label fo="iname"> Nome</label>
+                <input type="text" name="name" id="iname" required>
+            </p>
+            <p>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail" autocomplete="email" required>
+            </p>
+            <p>
+                <label for="itel">Telephone</label>
+                <input type="tel" name="tel" id="itel" required autocomplete="tel" pattern="\(\d{2}\)[0-9]{5}-[0-9]{4}" placeholder="(00)98765-4321" title="(00)99999-9999">
+            </p>
+        </fieldset>
         <!--Expressoes Regulares/RegEx-->
         <p>
             <input type="submit" value="Send">
